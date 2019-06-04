@@ -50,7 +50,7 @@ test(
 );
 
 test(
-    'should generate set text filter action filter',()=>{
+    'should generate set text filter  action filter',()=>{
         const result = setTextFilter('hello');
         expect(result).toEqual({
             type:'SET_TEXT_FILTER',
